@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gallery App
+
+This is a simple gallery app built with React that allows you to view and manage a collection of images. You can also drag and drop the images to rearrange their order.
+
+
+## Features
+
+- View a collection of images in a grid layout.
+- Select and delete individual images.
+- Rearrange images using drag and drop functionality.
+- Upload new images to the gallery.
+
 
 ## Getting Started
 
-First, run the development server:
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Node.js and npm installed on your machine.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/your-username/gallery-app.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Navigate to the project directory:
+cd gallery-app
 
-## Deploy on Vercel
+3. Install dependencies:
+npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Start the development server:
+npm run dev 
+or
+npm run start
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The app should now be running on http://localhost:3000.
+
+
+### Usage
+
+- View the gallery of images.
+- Select images using checkboxes.
+- Rearrange images using drag and drop.
+- Delete selected images.
+
+
+### Technologies Used
+
+- Next js
+- Tailwind Css
