@@ -29,7 +29,7 @@ These instructions will help you get a copy of the project up and running on you
    git clone https://github.com/shounaksarker/image-gallery
 
 2. Navigate to the project directory:
-cd gallery-app
+cd image-gallery
 
 3. Install dependencies:
 npm install
